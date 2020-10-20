@@ -1,0 +1,36 @@
+{
+	"cli": true,
+	"adapterName": "residents",
+	"title": "residents",
+	"description": "handle states of home residents",
+	"keywords": [
+		"home people family"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "alarm",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Patrick Noll",
+	"authorGithub": "nollhome",
+	"authorEmail": "github@pnoll.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.29.1"
+}

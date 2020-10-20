@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "residents",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "residents",
+		"titleLang": {
+			"en": "residents",
+			"de": "Bewohner",
+			"ru": "жители",
+			"pt": "moradores",
+			"nl": "Bewoners",
+			"fr": "résidents",
+			"it": "residenti",
+			"es": "residentes",
+			"pl": "mieszkańców",
+			"zh-cn": "居民"
+		},
+		"desc": {
+			"en": "handle states of home residents",
+			"de": "Umgang mit Staaten von Hausbewohnern",
+			"ru": "обрабатывать состояния жителей дома",
+			"pt": "lidar com estados de residentes de casa",
+			"nl": "omgaan met staten van huisbewoners",
+			"fr": "gérer les états des résidents",
+			"it": "gestire gli stati dei residenti domestici",
+			"es": "manejar los estados de los residentes del hogar",
+			"pl": "obsługiwać stany mieszkańców domu",
+			"zh-cn": "处理房屋居民的状况"
+		},
+		"authors": [
+			"Patrick Noll <github@pnoll.de>"
+		],
+		"keywords": [
+			"home people family"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "residents.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/nollhome/ioBroker.residents/master/admin/residents.png",
+		"readme": "https://github.com/nollhome/ioBroker.residents/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "alarm",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
